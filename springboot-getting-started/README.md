@@ -62,3 +62,17 @@
   * 테스트 리소스 (src\test\resource)
 - 메인 애플리케이션 위치 
   * 기본 패키지
+
+## 자동 설정 이해
+- @EnableAutoConfiguration (@SpringBootApplication 안에 숨어 있음)
+- 빈은 사실 두 단계로 나눠서 읽힘
+  * 1단계: @ComponentScan
+  * 2단계: @EnableAutoConfiguration
+- @ComponentScan
+  * @Component
+  * @Configuration @Repository @Service @Controller @RestController
+- @EnableAutoConfiguration
+  * spring.factories
+    * org.springframework.boot.autoconfigure.EnableAutoConfiguration
+  * @Configuration
+  * @ConditionalOnXxxYyyZzz
