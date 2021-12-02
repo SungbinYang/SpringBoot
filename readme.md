@@ -11,3 +11,4 @@
 - 의존성 관리 응용
 - 자동 설정 이해
 - 자동 설정 만들기 : Starter와 AutoConfigure
+- 자동 설정 만들기 : @ConfigurationProperties

@@ -1,3 +1,4 @@
-META-INF/spring-autoconfigure-metadata.properties
+META-INF/spring-configuration-metadata.json
 me/sungbin/HolomanConfiguration.class
+me/sungbin/HolomanProperties.class
 me/sungbin/Holoman.class
