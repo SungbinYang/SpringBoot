@@ -13,3 +13,4 @@
 - 자동 설정 만들기 : Starter와 AutoConfigure
 - 자동 설정 만들기 : @ConfigurationProperties
 - 내장 웹 서버 이해
+- 내장 웹 서버 응용 1부: 컨테이너와 서버 포트
