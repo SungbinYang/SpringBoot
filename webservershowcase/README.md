@@ -18,3 +18,8 @@
 - HTTP2 설정
   * server.http2.enable
   * 사용하는 서블릿 컨테이너 마다 다름.
+
+## 톰캣 HTTP2
+- JDK9와 Tomcat 9+ 추천
+- 그 이하는 아래 링크 참고
+- https://docs.spring.io/spring-boot/docs/current/reference/html/howto-embedded-web-servers.html#howto-configure-http2-tomcat
