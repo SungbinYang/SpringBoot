@@ -39,3 +39,14 @@
     * 애플리케이션 클래스와 라이브러리 위치 구분
     * org.springframework.boot.loader.jar.JarFile을 사용해서 내장 JAR를 읽는다.
     * org.springframework.boot.loader.Launcher를 사용해서 실행한다.
+
+## 스프링 부트 활용 소개
+
+| 스프링 부트 핵심 기능 |각종 기술 연동|
+|------|---|
+| SpringApplication |스프링 웹 MVC|
+| 외부 설정 |스프링 데이터|
+| 프로파일 |스프링 시큐리티|
+| 로깅 |REST API 클라이언트|
+| 테스트 |테스트2|
+| Spring-Dev-Tools |다루지 않은 내용들|
