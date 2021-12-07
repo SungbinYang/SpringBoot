@@ -24,3 +24,4 @@
 - Spring Application 1부
 - Spring Application 2부
 - 외부 설정 1부
+- 외부 설정 2부
