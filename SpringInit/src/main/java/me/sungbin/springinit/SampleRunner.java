@@ -9,14 +9,17 @@ import org.springframework.stereotype.Component;
 public class SampleRunner implements ApplicationRunner {
 
     @Autowired
-    SungbinProperties sungbinProperties;
+    private String hello;
+
+    @Autowired
+    private SungbinProperties sungbinProperties;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        System.out.println("======================");
+        System.out.println("=======================");
+        System.out.println(hello);
         System.out.println(sungbinProperties.getName());
-        System.out.println(sungbinProperties.getAge());
-        System.out.println(sungbinProperties.getSessionTimeout());
-        System.out.println("======================");
+        System.out.println(sungbinProperties.getFullName());
+        System.out.println("=======================");
     }
 }

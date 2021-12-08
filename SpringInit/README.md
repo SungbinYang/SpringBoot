@@ -80,3 +80,15 @@
   * @Value
     * SpEL 을 사용할 수 있지만...
     * 위에 있는 기능들은 전부 사용 못합니다.
+
+## 프로파일
+- @Profile 애노테이션은 어디에?
+  * @Configuration
+  * @Component
+- 어떤 프로파일을 활성화 할 것인가?
+  * spring.profiles.active
+- 어떤 프로파일을 추가할 것인가?
+  * spring.profiles.include (spring boot 2.4버전 이전)
+  * spring.profiles.group."myprofile" (spring boot 2.4버전 이후)
+- 프로파일용 프로퍼티
+  * application-{profile}.properties
