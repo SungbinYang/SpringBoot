@@ -20,10 +20,10 @@ public class SampleRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        logger.info("===========================");
-        logger.info(hello);
-        logger.info(sungbinProperties.getName());
-        logger.info(sungbinProperties.getFullName());
-        logger.info("===========================");
+        logger.debug("===========================");
+        logger.debug(hello);
+        logger.debug(sungbinProperties.getName());
+        logger.debug(sungbinProperties.getFullName());
+        logger.debug("===========================");
     }
 }
