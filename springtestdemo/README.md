@@ -17,3 +17,7 @@
     * @WebMvcTest
     * @WebFluxTest
     * @DataJpaTest
+
+## 테스트 유틸
+- OutputCapture : 테스트 콘솔 로그들을 캡쳐하여 테스트 할수있는 기능 (Junit4)
+- CapturedOutput과 @ExtendWith(OutputCaptureExtension.class) : Junit5부터 사용
