@@ -18,6 +18,6 @@ public class SampleController {
     public String hello() {
         logger.info("holoman");
         System.out.println("skip");
-        return "hello" + sampleService.getName();
+        return "hello " + sampleService.getName();
     }
 }
