@@ -33,3 +33,4 @@
 - Spring-Boot-Devtools
 - 스프링 웹 MVC: 소개
 - 스프링 웹 MVC: HttpMessageConverters
+- 스프링 웹 MVC: ViewResolver
