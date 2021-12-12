@@ -34,3 +34,4 @@
 - 스프링 웹 MVC: 소개
 - 스프링 웹 MVC: HttpMessageConverters
 - 스프링 웹 MVC: ViewResolver
+- 스프링 웹 MVC: 정적 리소스 지원

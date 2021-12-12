@@ -1,5 +1,6 @@
 package me.sungbin.demospringmvc.user;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -12,6 +13,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
+@DisplayName("UserController 테스트")
 @WebMvcTest(UserController.class)
 class UserControllerTest {
 
@@ -19,6 +21,7 @@ class UserControllerTest {
     MockMvc mockMvc;
 
     @Test
+    @DisplayName("hello() 테스트")
     void hello() throws Exception {
         mockMvc.perform(get("/hello"))
                 .andExpect(status().isOk())
@@ -26,6 +29,7 @@ class UserControllerTest {
     }
 
     @Test
+    @DisplayName("유저를 생성하여 json형태로 반환하는 테스트")
     void createUser_JSON() throws Exception {
         String userJson = "{\"username\":\"sungbin\", \"password\":\"1234\"}";
         mockMvc.perform(post("/users/create")
@@ -39,6 +43,7 @@ class UserControllerTest {
     }
 
     @Test
+    @DisplayName("유저를 생성하여 xml형태로 반환하는 테스트")
     void createUser_XML() throws Exception {
         String userJson = "{\"username\":\"sungbin\", \"password\":\"1234\"}";
         mockMvc.perform(post("/users/create")
