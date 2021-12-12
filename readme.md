@@ -38,3 +38,4 @@
 - 스프링 웹 MVC: 웹JAR
 - 스프링 웹 MVC: index 페이지와 파비콘
 - 스프링 웹 MVC: Thymeleaf
+- 스프링 웹 MVC: HtmlUnit
