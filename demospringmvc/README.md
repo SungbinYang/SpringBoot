@@ -51,3 +51,16 @@
   }
   ```
 
+## 스프링 웹 MVC: 웹JAR
+- 웹JAR 맵핑 “/webjars/**” 
+  * 버전 생략하고 사용하려면
+    * webjars-locator-core 의존성 추가
+
+  ```html
+  <script src="/webjars/jquery/dist/jquery.min.js"></script>
+  <script>
+     $(function() {
+         console.log("ready!");
+     });
+  </script>
+  ```
