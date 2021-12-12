@@ -39,3 +39,4 @@
 - 스프링 웹 MVC: index 페이지와 파비콘
 - 스프링 웹 MVC: Thymeleaf
 - 스프링 웹 MVC: HtmlUnit
+- 스프링 웹 MVC: ExceptionHandler
