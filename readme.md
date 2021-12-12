@@ -42,3 +42,5 @@
 - 스프링 웹 MVC: ExceptionHandler
 - 스프링 웹 MVC: Spring HATEOAS
 - 스프링 웹 MVC: CORS
+- 스프링 데이터: 소개
+- 스프링 데이터: 인메모리 데이터베이스
