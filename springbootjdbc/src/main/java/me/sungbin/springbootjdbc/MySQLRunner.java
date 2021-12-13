@@ -13,9 +13,9 @@ import java.sql.Connection;
 import java.sql.Statement;
 
 @Component
-public class H2Runner implements ApplicationRunner {
+public class MySQLRunner implements ApplicationRunner {
 
-    private Logger logger = LoggerFactory.getLogger(H2Runner.class);
+    private Logger logger = LoggerFactory.getLogger(MySQLRunner.class);
 
     @Autowired
     DataSource dataSource;
@@ -26,6 +26,7 @@ public class H2Runner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         try (Connection connection = dataSource.getConnection()) {
+            logger.info(String.valueOf(dataSource.getClass()));
             logger.info(connection.getMetaData().getURL());
             logger.info(connection.getMetaData().getUserName());
 
