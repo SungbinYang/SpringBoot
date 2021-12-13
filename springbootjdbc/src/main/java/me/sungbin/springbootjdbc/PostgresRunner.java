@@ -13,9 +13,9 @@ import java.sql.Connection;
 import java.sql.Statement;
 
 @Component
-public class MySQLRunner implements ApplicationRunner {
+public class PostgresRunner implements ApplicationRunner {
 
-    private Logger logger = LoggerFactory.getLogger(MySQLRunner.class);
+    private Logger logger = LoggerFactory.getLogger(PostgresRunner.class);
 
     @Autowired
     DataSource dataSource;
@@ -31,12 +31,12 @@ public class MySQLRunner implements ApplicationRunner {
             logger.info(connection.getMetaData().getUserName());
 
             Statement statement = connection.createStatement();
-            String sql = "CREATE TABLE USER(ID INTEGER NOT NULL, name VARCHAR(255), PRIMARY KEY (ID))";
+            String sql = "CREATE TABLE ACCOUNT(ID INTEGER NOT NULL, name VARCHAR(255), PRIMARY KEY (ID))";
             statement.executeUpdate(sql);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        jdbcTemplate.execute("INSERT INTO USER VALUES (1, 'sungbin')");
+        jdbcTemplate.execute("INSERT INTO ACCOUNT VALUES (1, 'sungbin')");
     }
 }
