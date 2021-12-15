@@ -47,3 +47,4 @@
 - 스프링 데이터: MySQL
 - 스프링 데이터: PostgreSQL
 - 스프링 데이터: 스프링 데이터 JPA 소개
+- 스프링 데이터: Spring-Data-JPA 연동
