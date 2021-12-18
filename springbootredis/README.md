@@ -14,6 +14,6 @@
     * keys *
     * get {key}
     * hgetall {key}
-    * hgetall {key}
+    * hget {key} {column}
 - 커스터마이징
     * spring.redis.*
