@@ -54,3 +54,4 @@
 - 스프링 데이터: MongoDB
 - 스프링 데이터: Neo4j
 - 스프링 데이터: 정리
+- 스프링 시큐리티: spring-boot-starter-security
