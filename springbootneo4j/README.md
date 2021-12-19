@@ -9,3 +9,6 @@
     * Neo4jTemplate (Deprecated)
     * SessionFactory
     * Neo4jRepository
+
+## 스프링 데이터: 정리
+- https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#boot-features-sql
