@@ -57,3 +57,4 @@
 - 스프링 시큐리티: spring-boot-starter-security
 - 스프링 시큐리티: 시큐리티 설정 커스터마이징
 - 스프링 REST 클라이언트: RestTemplate과 WebClient
+- 스프링 REST 클라이언트: 커스터마이징

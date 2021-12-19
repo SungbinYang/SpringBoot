@@ -41,7 +41,7 @@ public class RestRunner implements ApplicationRunner {
 
         StopWatch stopWatch1 = new StopWatch();
         stopWatch1.start();
-        Mono<String> stringMono = webClient.get().uri("http://localhost:8080/hello").retrieve().bodyToMono(String.class);
+        Mono<String> stringMono = webClient.get().uri("/hello").retrieve().bodyToMono(String.class);
         stringMono.subscribe(s -> {
             System.out.println(s);
 
@@ -52,7 +52,7 @@ public class RestRunner implements ApplicationRunner {
             stopWatch1.start();
         });
 
-        Mono<String> stringMono1 = webClient.get().uri("http://localhost:8080/world").retrieve().bodyToMono(String.class);
+        Mono<String> stringMono1 = webClient.get().uri("/world").retrieve().bodyToMono(String.class);
         stringMono1.subscribe(s -> {
             System.out.println(s);
 
