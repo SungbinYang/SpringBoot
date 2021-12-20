@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>me.sungbin</groupId>
-    <artifactId>springbootactuatordemo</artifactId>
+    <artifactId>app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springbootactuatordemo</name>
-    <description>springbootactuatordemo</description>
+    <name>springbootclinet</name>
+    <description>springbootclinet</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -20,6 +20,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
             <groupId>de.codecentric</groupId>
