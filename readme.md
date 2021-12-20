@@ -59,3 +59,7 @@
 - 스프링 REST 클라이언트: RestTemplate과 WebClient
 - 스프링 REST 클라이언트: 커스터마이징
 - 그 밖에 기술 연동
+
+## 스프링 부트 운영
+
+- 스프링 부트 Actuator: 소개
